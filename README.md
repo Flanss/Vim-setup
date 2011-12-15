@@ -8,7 +8,7 @@ Clone it into ~/.vim folder
 
 Then go into that folder and init the submodules
 
-    git submodule init
+    git submodule init && git submodule update
 
 And create symlinks for the config files
 
