@@ -1,6 +1,10 @@
 "" Enable sythax highlighting
 syntax enable
 
+"" Ruler and numbers
+set ruler
+set number
+
 "" Remove whitespace after saving
 autocmd BufWritePre * :%s/\s\+$//e
 autocmd BufWritePre * :%s/\t/  /e
