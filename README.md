@@ -1,5 +1,7 @@
 # My vim-setup
 
+Only tested with MacVim setup, no idea if it works on something else
+
 ## Install
 
 Clone it into ~/.vim folder
