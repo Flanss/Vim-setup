@@ -8,3 +8,7 @@ imap <D-t> <Esc>:CommandT<CR>
 
 "" Favorite font/size
 set gfn=Menlo:h16
+
+" Command-/ to toggle comments
+map <D-/> <plug>NERDCommenterToggle<CR>
+imap <D-/> <Esc><plug>NERDCommenterToggle<CR>i
