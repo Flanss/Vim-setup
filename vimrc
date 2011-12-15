@@ -1,9 +1,11 @@
+"" Enable sythax highlighting
 syntax enable
 
 "" Remove whitespace after saving
 autocmd BufWritePre * :%s/\s\+$//e
 autocmd BufWritePre * :%s/\t/  /e
 
+"" Favorite color scheme
 color molokai
 
 "" whitespace
@@ -12,19 +14,21 @@ set tabstop=2 shiftwidth=2
 set nowrap
 set backspace=indent,eol,start
 
-set colorcolumn=80
+"" That red marker for 80 characters
+set colorcolumn=81
 
 set nocompatible
 set encoding=utf-8
 set showcmd
 filetype plugin indent on
 
-"" Search
+"" Search configuration
 set hlsearch
 set incsearch
 set ignorecase
 set smartcase
 
+"" Start pathogen
 call pathogen#infect()
 
 "" Command-T ignores
@@ -32,8 +36,10 @@ set wildignore+=coverage*
 set wildignore+=tmp/*
 set wildignore+=public/*
 
+"" Store all .swp files on /tmp
 set dir=/tmp
 
+"" Load user configuration
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
