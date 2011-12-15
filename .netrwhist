@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/dab/.rvm/gems/ruby-1.9.3-p0@settings/gems/cucumber-1.1.4/lib/cucumber/core_ext'
+let g:netrw_dirhist_2='/Users/dab/.rvm/gems/ruby-1.9.3-p0@settings/gems/cucumber-1.1.4/lib/cucumber'
+let g:netrw_dirhist_3='/Users/dab/.rvm/gems/ruby-1.9.3-p0@settings/gems/cucumber-1.1.4/lib/cucumber/rake'
