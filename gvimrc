@@ -5,6 +5,7 @@ set guioptions=aAce
 macmenu &File.New\ Tab key=<D-T>
 map <D-t> :CommandT<CR>
 imap <D-t> <Esc>:CommandT<CR>
+map <leader>r :CommandTFlush<CR>
 
 "" Favorite font/size
 set gfn=Menlo:h16
