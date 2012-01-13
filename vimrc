@@ -5,6 +5,9 @@ syntax enable
 set ruler
 set number
 
+"" 256 Colors
+set t_Co=256
+
 "" Remove whitespace after saving
 autocmd BufWritePre * :%s/\s\+$//e
 autocmd BufWritePre * :%s/\t/  /e
@@ -38,10 +41,12 @@ set smartcase
 "" Start pathogen
 call pathogen#infect()
 
-"" Command-T ignores
+"" Command-T
 set wildignore+=coverage*
 set wildignore+=tmp/*
 set wildignore+=public/*
+let g:CommandTMaxHeight=15
+
 
 "" Store all .swp files on /tmp
 set dir=/tmp
