@@ -26,6 +26,9 @@ set encoding=utf-8
 set showcmd
 filetype plugin indent on
 
+"" Powerline
+set laststatus=2
+
 "" Search configuration
 set hlsearch
 set incsearch
