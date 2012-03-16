@@ -10,12 +10,22 @@ Clone it into ~/.vim folder
 
 Then go into that folder and init the submodules
 
+    cd ~/.vim
     git submodule init && git submodule update
 
 And create symlinks for the config files
 
-    ln -s gvimrc ~/.gvimrc
-    ln -s vimrc ~/.vimrc
+    cd
+    ln -s ~/.vim/gvimrc .gvimrc
+    ln -s ~/.vim/vimrc .vimrc
+
+### Compile Command-t
+
+You have to compile the Command-t extension
+
+    cd ~/.vim/bundle/command-t
+    bundle
+    rake make
 
 ## Your own settings
 
