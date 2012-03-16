@@ -14,17 +14,23 @@
   path = bundle/vim-cucumber
   url = https://github.com/tpope/vim-cucumber.git
 [submodule "bundle/vim-align"]
-	path = bundle/vim-align
-	url = https://github.com/tsaleh/vim-align.git
+  path = bundle/vim-align
+  url = https://github.com/tsaleh/vim-align.git
 [submodule "bundle/nerdcommenter"]
-	path = bundle/nerdcommenter
-	url = https://github.com/scrooloose/nerdcommenter.git
+  path = bundle/nerdcommenter
+  url = https://github.com/scrooloose/nerdcommenter.git
 [submodule "bundle/vim-slim"]
-	path = bundle/vim-slim
-	url = https://github.com/bbommarito/vim-slim.git
+  path = bundle/vim-slim
+  url = https://github.com/bbommarito/vim-slim.git
 [submodule "bundle/vim-powerline"]
-	path = bundle/vim-powerline
-	url = https://github.com/Lokaltog/vim-powerline.git
+  path = bundle/vim-powerline
+  url = https://github.com/Lokaltog/vim-powerline.git
 [submodule "bundle/vim-scala"]
-	path = bundle/vim-scala
-	url = https://github.com/derekwyatt/vim-scala.git
+  path = bundle/vim-scala
+  url = https://github.com/derekwyatt/vim-scala.git
+[submodule "bundle/vim-less"]
+  path = bundle/vim-less
+  url = https://github.com/groenewege/vim-less.git
+[submodule "bundle/vim-markdown-preview"]
+  path = bundle/vim-markdown-preview
+  url = https://github.com/nelstrom/vim-markdown-preview.git
