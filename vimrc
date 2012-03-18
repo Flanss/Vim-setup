@@ -51,6 +51,13 @@ let g:CommandTMaxHeight=15
 "" Store all .swp files on /tmp
 set dir=/tmp
 
+"" NERDTree
+map <leader>n :NERDTreeToggle<CR>
+"" Open if no file is provided
+autocmd vimenter * if !argc() | NERDTree | endif
+"" Close it if its the last window open
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
 "" Load user configuration
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
