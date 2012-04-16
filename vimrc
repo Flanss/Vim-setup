@@ -62,3 +62,10 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
+
+" ARROW KEYS ARE UNACCEPTABLE
+map <Left> :echo "no!"<cr>
+map <Right> :echo "no!"<cr>
+map <Up> :echo "no!"<cr>
+map <Down> :echo "no!"<cr>
+
