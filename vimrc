@@ -69,3 +69,6 @@ map <Right> :echo "no!"<cr>
 map <Up> :echo "no!"<cr>
 map <Down> :echo "no!"<cr>
 
+" A few CTRL commands
+map <C-S> :w<cr>
+map <C-L> => 
