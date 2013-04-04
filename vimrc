@@ -75,3 +75,5 @@ map <C-L> =>
 
 " Numbers
 nnoremap <F3> :NumbersToggle<CR>
+
+nmap <D-r> :execute 'ConqueTermSplit rspec '.expand('%:p')<cr>
