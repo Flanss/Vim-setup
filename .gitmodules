@@ -52,3 +52,6 @@
 [submodule "bundle/vim-handlebars"]
 	path = bundle/vim-handlebars
 	url = https://github.com/nono/vim-handlebars
+[submodule "bundle/play2vim"]
+	path = bundle/play2vim
+	url = https://github.com/gre/play2vim
