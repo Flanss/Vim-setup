@@ -14,6 +14,7 @@ autocmd BufWritePre * :%s/\t/  /e
 
 "" Favorite color scheme
 color molokai
+"" color github
 
 "" whitespace
 set expandtab
