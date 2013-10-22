@@ -8,7 +8,7 @@ imap <D-t> <Esc>:CommandT<CR>
 map <leader>r :CommandTFlush<CR>
 
 "" Favorite font/size
-set gfn=Menlo:h16
+set gfn=Bitstream\ Vera\ Sans\ Mono:h24
 
 " Command-/ to toggle comments
 map <D-/> <plug>NERDCommenterToggle<CR>
