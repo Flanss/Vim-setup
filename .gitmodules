@@ -18,7 +18,7 @@
   url = https://github.com/scrooloose/nerdcommenter.git
 [submodule "bundle/vim-slim"]
   path = bundle/vim-slim
-  url = https://github.com/bbommarito/vim-slim.git
+  url = git@github.com:slim-template/vim-slim.git
 [submodule "bundle/vim-powerline"]
   path = bundle/vim-powerline
   url = https://github.com/Lokaltog/vim-powerline.git
