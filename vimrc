@@ -73,6 +73,7 @@ map <Down> :echo "no!"<cr>
 " A few CTRL commands
 map <C-S> :w<cr>
 map <C-L> =>
+map <C-t> :CtrlP<cr>
 
 " Numbers
 nnoremap <F3> :NumbersToggle<CR>

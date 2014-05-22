@@ -3,9 +3,8 @@ set guioptions=aAce
 
 "" Set Command-T to actually use Command-T key binding
 macmenu &File.New\ Tab key=<D-T>
-map <D-t> :CommandT<CR>
-imap <D-t> <Esc>:CommandT<CR>
-map <leader>r :CommandTFlush<CR>
+map <D-t> :CtrlP<CR>
+imap <D-t> <Esc>:CtrlP<CR>
 
 "" Favorite font/size
 set gfn=Bitstream\ Vera\ Sans\ Mono:h24
