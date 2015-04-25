@@ -78,4 +78,12 @@ map <C-t> :CtrlP<cr>
 " Numbers
 nnoremap <F3> :NumbersToggle<CR>
 
-nmap <D-r> :execute 'ConqueTermSplit rspec '.expand('%:p')<cr>
+nmap <D-r> :!ruby %<cr>
+
+let g:go_fmt_autosave = 0
+
+" ARROW KEYS ARE UNACCEPTABLE
+map <Left> :echo "Use h instead of the Left Arrow!"<cr>
+map <Right> :echo "Use l instead of the Right Arrow!"<cr>
+map <Up> :echo "Use k instead of the Up Arrow!"<cr>
+map <Down> :echo "Use j instead of the Down Arrow!"<cr>
