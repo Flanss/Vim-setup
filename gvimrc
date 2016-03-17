@@ -7,8 +7,13 @@ map <D-t> :CtrlP<CR>
 imap <D-t> <Esc>:CtrlP<CR>
 
 "" Favorite font/size
-set gfn=Bitstream\ Vera\ Sans\ Mono:h20
+""set gfn=Bitstream\ Vera\ Sans\ Mono:h20
+set gfn=Hack:h18
 
 " Command-/ to toggle comments
 map <D-/> <plug>NERDCommenterToggle<CR>
 imap <D-/> <Esc><plug>NERDCommenterToggle<CR>i
+
+set macligatures
+set guifont=Fira\ Code:h16
+"" set guifont=Operator\ Mono:h16

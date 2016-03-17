@@ -56,8 +56,8 @@
   path = bundle/vim-elixir
   url = git@github.com:elixir-lang/vim-elixir.git
 [submodule "bundle/ctrlp"]
-	path = bundle/ctrlp
-	url = git@github.com:kien/ctrlp.vim.git
+  path = bundle/ctrlp
+  url = git@github.com:kien/ctrlp.vim.git
 [submodule "bundle/vim-go"]
-	path = bundle/vim-go
-	url = https://github.com/fatih/vim-go.git
+  path = bundle/vim-go
+  url = https://github.com/fatih/vim-go.git
