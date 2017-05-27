@@ -7,30 +7,18 @@
 [submodule "bundle/vim-coffee-script"]
   path = bundle/vim-coffee-script
   url = https://github.com/kchmck/vim-coffee-script.git
-[submodule "bundle/vim-cucumber"]
-  path = bundle/vim-cucumber
-  url = https://github.com/tpope/vim-cucumber.git
 [submodule "bundle/vim-align"]
   path = bundle/vim-align
   url = https://github.com/tsaleh/vim-align.git
 [submodule "bundle/nerdcommenter"]
   path = bundle/nerdcommenter
   url = https://github.com/scrooloose/nerdcommenter.git
-[submodule "bundle/vim-slim"]
-  path = bundle/vim-slim
-  url = git@github.com:slim-template/vim-slim.git
-[submodule "bundle/vim-powerline"]
-  path = bundle/vim-powerline
-  url = https://github.com/Lokaltog/vim-powerline.git
 [submodule "bundle/vim-scala"]
   path = bundle/vim-scala
   url = https://github.com/derekwyatt/vim-scala.git
 [submodule "bundle/vim-less"]
   path = bundle/vim-less
   url = https://github.com/groenewege/vim-less.git
-[submodule "bundle/vim-markdown-preview"]
-  path = bundle/vim-markdown-preview
-  url = https://github.com/nelstrom/vim-markdown-preview.git
 [submodule "bundle/nerdtree"]
   path = bundle/nerdtree
   url = https://github.com/scrooloose/nerdtree.git
@@ -52,12 +40,21 @@
 [submodule "bundle/play2vim"]
   path = bundle/play2vim
   url = https://github.com/gre/play2vim
-[submodule "bundle/vim-elixir"]
-  path = bundle/vim-elixir
-  url = git@github.com:elixir-lang/vim-elixir.git
 [submodule "bundle/ctrlp"]
   path = bundle/ctrlp
   url = git@github.com:kien/ctrlp.vim.git
 [submodule "bundle/vim-go"]
   path = bundle/vim-go
   url = https://github.com/fatih/vim-go.git
+[submodule "bundle/vim-airline"]
+ path = bundle/vim-airline
+ url = https://github.com/vim-airline/vim-airline
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "bundle/vim-gitgutter"]
+	path = bundle/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule "bundle/vim-rails"]
+	path = bundle/vim-rails
+	url = https://github.com/tpope/vim-rails
