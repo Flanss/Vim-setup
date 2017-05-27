@@ -50,11 +50,20 @@
  path = bundle/vim-airline
  url = https://github.com/vim-airline/vim-airline
 [submodule "bundle/vim-fugitive"]
-	path = bundle/vim-fugitive
-	url = https://github.com/tpope/vim-fugitive
+  path = bundle/vim-fugitive
+  url = https://github.com/tpope/vim-fugitive
 [submodule "bundle/vim-gitgutter"]
-	path = bundle/vim-gitgutter
-	url = https://github.com/airblade/vim-gitgutter
+  path = bundle/vim-gitgutter
+  url = https://github.com/airblade/vim-gitgutter
 [submodule "bundle/vim-rails"]
-	path = bundle/vim-rails
-	url = https://github.com/tpope/vim-rails
+  path = bundle/vim-rails
+  url = https://github.com/tpope/vim-rails
+[submodule "bundle/slim"]
+  path = bundle/vim-slim
+  url = https://github.com/slim-template/vim-slim
+[submodule "bundle/ag"]
+	path = bundle/ag
+	url = https://github.com/rking/ag.vim
+[submodule "bundle/colorschemes"]
+	path = bundle/colorschemes
+	url = https://github.com/flazz/vim-colorschemes.git

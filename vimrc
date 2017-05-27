@@ -42,12 +42,14 @@ set smartcase
 "" Start pathogen
 call pathogen#infect()
 
-"" Command-T
+"" Command-P
 set wildignore+=coverage*
-set wildignore+=tmp/*
+set wildignore+=*/tmp/*
+set wildignore+=*/node_modules/*
 set wildignore+=public/*
 let g:CommandTMaxHeight=15
 
+let g:ctrlp_custom_ignore = 'node_modules'
 
 "" Store all .swp files on /tmp
 set dir=/tmp
@@ -64,12 +66,6 @@ if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
 
-" ARROW KEYS ARE UNACCEPTABLE
-map <Left> :echo "no!"<cr>
-map <Right> :echo "no!"<cr>
-map <Up> :echo "no!"<cr>
-map <Down> :echo "no!"<cr>
-
 " A few CTRL commands
 map <C-S> :w<cr>
 map <C-L> =>
@@ -82,8 +78,4 @@ nmap <D-r> :!ruby %<cr>
 
 let g:go_fmt_autosave = 0
 
-" ARROW KEYS ARE UNACCEPTABLE
-map <Left> :echo "Use h instead of the Left Arrow!"<cr>
-map <Right> :echo "Use l instead of the Right Arrow!"<cr>
-map <Up> :echo "Use k instead of the Up Arrow!"<cr>
-map <Down> :echo "Use j instead of the Down Arrow!"<cr>
+set runtimepath^=~/.vim/bundle/ag
