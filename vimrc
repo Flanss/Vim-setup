@@ -13,8 +13,7 @@ autocmd BufWritePre * :%s/\s\+$//e
 autocmd BufWritePre * :%s/\t/  /e
 
 "" Favorite color scheme
-color molokai
-"" color github
+color wombat256mod
 
 "" whitespace
 set expandtab
@@ -79,3 +78,4 @@ nmap <D-r> :!ruby %<cr>
 let g:go_fmt_autosave = 0
 
 set runtimepath^=~/.vim/bundle/ag
+let g:UltiSnipsExpandTrigger="<c-j>"
