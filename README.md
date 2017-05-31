@@ -6,7 +6,7 @@ Only tested with MacVim setup, no idea if it works on something else
 
 Clone it into ~/.vim folder
 
-    git clone git://github.com/dabit/vim-setup.git .vim
+    git clone git@github.com:Flanss/Vim-setup.git .vim
 
 Then go into that folder and init the submodules
 
@@ -16,16 +16,8 @@ Then go into that folder and init the submodules
 And create symlinks for the config files
 
     cd
-    ln -s ~/.vim/gvimrc .gvimrc
+    ln -s ~/.vim/zshrc .zshrc
     ln -s ~/.vim/vimrc .vimrc
-
-### Compile Command-t
-
-You have to compile the Command-t extension
-
-    cd ~/.vim/bundle/command-t
-    bundle
-    rake make
 
 ## Your own settings
 
