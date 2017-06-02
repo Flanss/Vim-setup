@@ -1,3 +1,4 @@
+:let mapleader = ","
 "" Enable sythax highlighting
 syntax enable
 
@@ -59,6 +60,10 @@ map <leader>n :NERDTreeToggle<CR>
 autocmd vimenter * if !argc() | NERDTree | endif
 "" Close it if its the last window open
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
+"""" IdentLine
+let g:indentLine_color_term = 239
+let g:indentLine_char = '|'
 
 "" Load user configuration
 if filereadable(expand("~/.vimrc.local"))
