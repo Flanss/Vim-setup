@@ -87,4 +87,3 @@ let g:go_fmt_autosave = 0
 
 set runtimepath^=~/.vim/bundle/ag
 let g:UltiSnipsExpandTrigger="<c-j>"
-:h Colorizer
