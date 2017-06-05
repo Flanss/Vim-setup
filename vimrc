@@ -1,4 +1,8 @@
+set nocompatible
+
+"" Leader Key
 :let mapleader = ","
+
 "" Enable sythax highlighting
 syntax enable
 
@@ -79,8 +83,8 @@ map <C-t> :CtrlP<cr>
 nnoremap <F3> :NumbersToggle<CR>
 
 nmap <D-r> :!ruby %<cr>
-
 let g:go_fmt_autosave = 0
 
 set runtimepath^=~/.vim/bundle/ag
 let g:UltiSnipsExpandTrigger="<c-j>"
+:h Colorizer
