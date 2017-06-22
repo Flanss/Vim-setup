@@ -20,6 +20,12 @@ autocmd BufWritePre * :%s/\t/  /e
 "" Favorite color scheme
 color wombat256mod
 
+"" Set vertical cursor column
+set cursorcolumn
+
+"" Set horizontal cursor
+set cursorline
+
 "" whitespace
 set expandtab
 set tabstop=2 shiftwidth=2
@@ -87,4 +93,11 @@ let g:go_fmt_autosave = 0
 
 set runtimepath^=~/.vim/bundle/ag
 let g:UltiSnipsExpandTrigger="<c-j>"
-:h Colorizer
+
+"" Resize split
+nnoremap <Leader>w :10winc -<CR>
+nnoremap <Leader>s :10winc +<CR>
+
+"" Git gutter config
+let g:gitgutter_realtime = 0
+let g:gitgutter_eager = 0
