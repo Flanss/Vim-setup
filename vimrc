@@ -93,7 +93,6 @@ let g:go_fmt_autosave = 0
 
 set runtimepath^=~/.vim/bundle/ag
 let g:UltiSnipsExpandTrigger="<c-j>"
-<<<<<<< HEAD
 
 "" Resize split
 nnoremap <Leader>w :10winc -<CR>
@@ -102,5 +101,3 @@ nnoremap <Leader>s :10winc +<CR>
 "" Git gutter config
 let g:gitgutter_realtime = 0
 let g:gitgutter_eager = 0
-=======
->>>>>>> 572b3c45810f6d483d47e3adec998c7cdf44634e
