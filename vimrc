@@ -101,3 +101,9 @@ nnoremap <Leader>s :10winc +<CR>
 "" Git gutter config
 let g:gitgutter_realtime = 0
 let g:gitgutter_eager = 0
+
+"" Remap movement keys
+noremap <C-h> <C-w>h
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
+noremap <C-l> <C-w>l
