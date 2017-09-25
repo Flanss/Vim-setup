@@ -97,6 +97,8 @@ let g:UltiSnipsExpandTrigger="<c-j>"
 "" Resize split
 nnoremap <Leader>w :10winc -<CR>
 nnoremap <Leader>s :10winc +<CR>
+nnoremap <Leader>a :vertical resize +10<CR>
+nnoremap <Leader>d :vertical resize -10<CR>
 
 "" Git gutter config
 let g:gitgutter_realtime = 0
@@ -107,3 +109,8 @@ noremap <C-h> <C-w>h
 noremap <C-j> <C-w>j
 noremap <C-k> <C-w>k
 noremap <C-l> <C-w>l
+
+"" Switch to full screen
+nnoremap <Leader>t :tabnew %<CR>
+
+set mouse=a
