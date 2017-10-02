@@ -35,7 +35,6 @@ set backspace=indent,eol,start
 "" That red marker for 80 characters
 set colorcolumn=81
 
-set nocompatible
 set encoding=utf-8
 set showcmd
 filetype plugin indent on
@@ -71,28 +70,10 @@ autocmd vimenter * if !argc() | NERDTree | endif
 "" Close it if its the last window open
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
-"""" IdentLine
-let g:indentLine_color_term = 239
-let g:indentLine_char = '|'
-
-"" Load user configuration
-if filereadable(expand("~/.vimrc.local"))
-  source ~/.vimrc.local
-endif
-
-" A few CTRL commands
-map <C-S> :w<cr>
-map <C-L> =>
-map <C-t> :CtrlP<cr>
-
 " Numbers
 nnoremap <F3> :NumbersToggle<CR>
 
-nmap <D-r> :!ruby %<cr>
-let g:go_fmt_autosave = 0
-
 set runtimepath^=~/.vim/bundle/ag
-let g:UltiSnipsExpandTrigger="<c-j>"
 
 "" Resize split
 nnoremap <Leader>w :10winc -<CR>
